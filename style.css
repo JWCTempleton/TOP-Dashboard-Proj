@@ -6,7 +6,7 @@
 
 .container {
     display: grid;
-    grid-template-columns: 1fr 4fr;
+    grid-template-columns: 1fr 5fr;
     height: 100vh;
 }
 
@@ -16,4 +16,14 @@
 
 .body {
     background-color: coral;
+    display: grid;
+    grid-template-rows: 20vh 1fr;
+}
+
+.profile {
+    background-color: orangered;
+}
+
+.projects {
+    background-color: lightseagreen;
 }
