@@ -56,39 +56,54 @@ li {
 .body {
     background-color: coral;
     display: grid;
-    grid-template-rows: 20vh 1fr;
+    grid-template-rows: 25vh 1fr;
 }
 
 .profile {
     background-color: orangered;
     display: grid;
     grid-template-columns: 2.5fr 1fr;
-    grid-template-rows: 1fr 2fr;
+    grid-template-rows: 1fr 1fr;
 }
 
 .profile__search {
     display: flex;
     align-items: center;
-    background-color: lightgreen;
+    background-color: #fff;
 
 }
 
 .search__svg {
     transform: translate(4px, 12px);
+    margin-left: 25px;
 }
 
 .profile__search input {
     border-radius: 50px;
-    width: 400px;
+    width: 500px;
     border-style: none;
-    height: 25px;
+    height: 30px;
+    background-color: #DBEAFE;
+}
+
+.profile__user {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #fff;
 }
 
 .profile__name {
-    display: flex;
-    background-color: aliceblue;
-    align-items: center;
-    justify-content: center;
+    font-weight: 700;
+    margin-right: 30px;
+}
+
+.profile__pic {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    overflow: hidden;
 }
 
 .projects {
