@@ -56,11 +56,11 @@ li {
 .body {
     background-color: coral;
     display: grid;
-    grid-template-rows: 25vh 1fr;
+    grid-template-rows: 170px 1fr;
 }
 
 .profile {
-    background-color: orangered;
+    background-color: #fff;
     display: grid;
     grid-template-columns: 2.5fr 1fr;
     grid-template-rows: 1fr 1fr;
@@ -106,6 +106,41 @@ li {
     overflow: hidden;
 }
 
+.profile__welcome {
+    display: flex;
+    align-items: center;
+}
+
+.profile__welcome-pic {
+    border-radius: 50%;
+    width: 66px;
+    height: 66px;
+    margin-left: 30px;
+    margin-right: 24px;
+}
+
+.welcome__name {
+    font-weight: 700;
+    font-size: 30px;
+    margin-top: 6px;
+    margin-left: -8px;
+}
+
+.profile__buttons {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-right: 20px;
+    margin-left: -40px;
+}
+
+.btn {
+    border-style: none;
+    background-color: #3B82F6;
+    color: #fff;
+    padding: 10px 24px;
+    border-radius: 30px;
+}
 .projects {
-    background-color: lightseagreen;
+    background-color: #DBEAFE;
 }
