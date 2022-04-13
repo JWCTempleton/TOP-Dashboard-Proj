@@ -168,9 +168,7 @@ li {
     justify-content: space-around;
 }
 
-.announcement__panel {
-    background-color: DBEAFE;
-}
+
 
 .project__description {
     margin-top: 10px;
@@ -184,4 +182,42 @@ li {
 .icons svg {
     margin-top: 10px;
     margin-right: 10px;
+}
+
+.announcement__panel {
+    background-color: #DBEAFE;
+    margin-top: 28px;
+}
+
+.announcement__title {
+    margin-bottom: 8px;
+    font-weight: 700;
+    margin-left: 20px;
+}
+
+.announcement__card{
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 6px 24px;
+    margin-right: 30px;
+    box-shadow: 0px 4px 8px rgba(0,0,0,.3);
+}
+
+.update {
+    border-bottom: 1px solid rgb(110, 126, 142);;
+}
+
+.update:last-child {
+    border-bottom: none;
+}
+
+.update__title {
+    margin-top: 16px;
+}
+
+.update__info {
+    color: rgb(110, 126, 142);
+    margin-top: 12px;
+    margin-bottom: 20px;
+    font-size: 14px;
 }
